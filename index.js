@@ -37,7 +37,7 @@ function svgPrompts() {
         },
         // shapes
         {
-            type: 'checkbox',
+            type: 'list',
             message: 'Please choose a shape for your logo',
             name: 'shape',
             choices:['Triangle', 'Square', 'Circle'],
